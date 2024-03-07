@@ -20,5 +20,5 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 | traction        | VARCHAR(30) | NOT NULL           |             |
 | number_seats    | TINYINT     | NULL, UNSIGNED     |             |
 | numero_doors    | TINYINT     | NOT NULL, UNSIGNED |             |
-| price           | MEDIUMINT   | NOT NULL, UNSIGNED |             |
+| price           | FLOAT(8, 2) | NOT NULL, UNSIGNED |             |
 | note            | TEXT        | NULL               |             |
